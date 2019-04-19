@@ -25,24 +25,24 @@
 
 1. Post
 ------------------------------------------
-	2.1 get All posts
+	1.1 get All posts
 
 		get:-    /posts
 		
-	2.1 get a post
+	1.2 get a post
 
 		get:-    /posts/:id
 
-	2.1 create a post
+	1.3 create a post
 
 		post:-    /posts
 		paramter:-   body, title
 
-	2.1 edit a post
+	1.4 edit a post
 			
 		put:-  	/posts/:id
 
-	2.1 delete a post
+	1.5 delete a post
 			
 		destroy:-    /posts/:id
 
